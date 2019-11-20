@@ -1,0 +1,2 @@
+# SpringSecurity_SpringMVC
+springMVC集成springSecurity实现的单机版双客互端（系统管理+商户管理）应用，有些集成问题的真正可用的解决方案，全网可能只有我这有
