@@ -1,0 +1,16 @@
+@charset "utf-8";
+#img #ul_img li{
+	display: inline;
+    list-style: none outside none;
+}
+ 
+
+#img #ul_img{
+	position:absolute;
+}
+#img{
+	width:1000px; 
+	height:93px; 
+	overflow:hidden;
+	position:relative;
+}

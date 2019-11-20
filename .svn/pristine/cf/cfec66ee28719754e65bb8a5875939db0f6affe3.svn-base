@@ -1,0 +1,5 @@
+.modal-open .modal {overflow-x: visible;overflow-y: visible;}
+
+.modal {
+    overflow-y: visible !important;
+}

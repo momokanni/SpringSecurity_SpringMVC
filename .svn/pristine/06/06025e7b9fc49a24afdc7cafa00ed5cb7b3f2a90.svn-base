@@ -1,0 +1,17 @@
+﻿.acyzm, .ctime, .scyzm, .scyzmimg {
+    border: 1px solid #90BAED;
+    color: #2058A1;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 2px;
+    text-align: center;
+    width: 160px;
+}
+
+.ctime {
+    border: 1px solid #DDDDDD;
+    color: #888888;
+}

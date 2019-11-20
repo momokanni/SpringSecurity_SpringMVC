@@ -1,0 +1,20 @@
+package com.caishen91.jupiter.dao;
+
+import com.caishen91.jupiter.model.SysUserPermit;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
+
+public interface SysUserPermitMapper {
+
+    @Select("select * from sysUserPermit where userId = #{sysUserId}")
+    List<SysUserPermit> getSysUserPermitBySysUserId(@Param("sysUserId") int sysUserId);
+
+    @Select("update sysUserPermit set permit = 0 where userId = #{sysUserId}")
+    void revocationSysUserAuthAll(@Param("sysUserId") int sysUserId);
+
+    @Insert("insert into sysUserPermit(userId, refId, permit) values(#{userId}, #{refId}, #{permit})")
+    void allotSysUserAuth(SysUserPermit sysUserPermit);
+}

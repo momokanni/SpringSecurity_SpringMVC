@@ -1,0 +1,15 @@
+@charset "utf-8";
+.progresscontain {
+	width:165px;
+	margin:0 auto;
+}
+.progresscontain .progress{
+background:url("../images/progress/background.png");
+float:left;
+width:120px;
+}
+.progress .blue{
+background:url("../images/progress/blue.png");
+height:14px;float:left;
+display:block;
+}

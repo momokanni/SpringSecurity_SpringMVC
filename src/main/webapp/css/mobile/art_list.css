@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+.bottom_h{ height:70px;}
+
+/*menu*/
+.art_tab{ height:auto; width:100%; overflow:hidden; border-bottom:1px solid #fafafa; height:42px; position:fixed; top:0; left:0; z-index:100; position: -webkit-sticky; position: sticky;}
+.tab_menu{ width:1000px; padding:0 2%}
+.tab_menu li{ display:inline-block; padding:0 5px}
+.tab_menu li a{ font-size:16px; color:#888; height:42px; line-height:42px; display:block; padding:0 8px}
+.tab_menu li a.menu_in{ color:#31c27c; font-weight:bold; position:relative; color:#444; font-size:18px}
+.tab_menu li a.menu_in em{ height:2.5px; display:block; position:absolute; bottom:0; left:0; width:46%; left:27%; border-radius:2.5px}
+
+
+/*list*/
+/*
+.art_one{ padding-top:15px; padding-bottom:20px;}
+.art_one a{ display:block; width:100%; height:auto; overflow:hidden}
+.art_one_tit{line-height:26px; font-weight:bold; color:#3c3f45}
+.art_one_img{ width:100%; height:auto}
+.art_one_img img{ display:block; width:100%; height:auto}
+
+.art_bot{ height:24px; line-height:24px;}
+.art_bot01{ display:inline-block}
+.art_bot_img{ float:left; width:16px; padding-top:3.5px; margin-left:8px; margin-right:3px}
+*/
+
+
+/*列表模块*/
+.artli{ border-bottom:1px solid #f2f2f2; padding-top:15px; padding-bottom:18px}
+.artli:last-child{ border-bottom:none}
+.art_top img{ display:block; width:54px; height:21px; float:left}
+.art_con{ height:80px; padding:2px 95px 0 0;}
+.art_tit{ font-size:16px; height:48px; line-height:24px; font-weight:500;letter-spacing:.5px}
+.art_img{ width:80px; height:80px; border-radius:8px; overflow:hidden; position:absolute; top:2px; right:0}
+.art_read{ margin-top:16px;}
+.art_readli{ float:left; margin-right:15px}
+.art_readli img{ float:left; width:16px; height:16px; margin-right:4px;}
+
+
+/* 文章详情*/
+.arttitle{ font-weight:500;}
+.art_public{ border-bottom:1px solid #f2f2f2; padding:15px 0;}
+
+.a_follow{ position:absolute; top:50%; margin-top:-14px; right:0; color:#31c27c; border:1px solid #31c27c; border-radius:24px; height:24px; line-height:24px; padding-left:14px; text-align:center; background:url(http://img.91caishen.com/source/images/contpla/app/gz01.png) 12px 5px no-repeat; background-size:14px auto; width:54px; display:block}
+.a_follow_ok{ background:none; border-color:#ddd; color:#aaa; text-align:center; padding:0; width:68px}
+
+.artpulic{ height:26px; width:auto; line-height:26px}
+.artpulic dt img{ display:block; width:54px; height:21px; margin-top:2.5px}
+.artpulic dd{ margin-left:8px}
+.art_public p{ height:26px; line-height:26px; margin-left:15px}
+
+.article p,.article p span,.article p strong{ font-size:16px; color:#333; line-height:24px; padding:8px 0}
+.article p img,.article p span img,.article p strong img{ display:block; max-width:100%; height:auto}
+
+.art_read02 li{ margin:0}
+.art_read02 li.fr{ float:right}
+
+
+.art_ad{ width:94%; padding:0 3%; padding-top:20px}
+
+/*文章推荐*/
+.art_tj{ height:30px; line-height:30px; border-bottom:1px solid #f2f2f2;}
+
+/*操作*/
+.art_zhezhao{ position:fixed; bottom:0; left:0; width:100%; height:55px; background:#fff; opacity:1; border-top:1px solid #f2f2f2; z-index:99}
+.art_ope{ position:fixed; bottom:0; left:0; width:96%; padding:0 2%; height:56px; z-index:100}
+.art_ope li{ float:left; width:33.3333%}
+.art_ope li a{ width:80%;line-height:56px; display:block; text-align:center; margin:0 10%}
+.art_ope li a em{ display:inline-block; width:30px; height:30px; vertical-align:middle}
+.art_ope li a.art_fab em{ background:url(http://img.91caishen.com/source/images/contpla/app/tab_fab.png) no-repeat; background-size:100% auto;}
+.art_ope li a.art_fab_in em{ background:url(http://img.91caishen.com/source/images/contpla/app/tab_fab_in04.png) no-repeat; background-size:100% auto;}
+.art_ope li a.art_col em{ background:url(http://img.91caishen.com/source/images/contpla/app/tab_col.png) no-repeat;background-size:100% auto;}
+.art_ope li a.art_col_in em{ background:url(http://img.91caishen.com/source/images/contpla/app/tab_col_in04.png) no-repeat;background-size:100% auto;}
+.art_ope li a.art_share em{ background:url(http://img.91caishen.com/source/images/contpla/app/tab_share.png) no-repeat;background-size:100% auto;}
+.art_ope li a span{ display:inline-block; vertical-align:middle;}
+
+
+/*app分享*/
+.art_zhezhao02{ width:100%; height:80px; background:#fff; position:fixed; bottom:0; left:0; opacity:1; z-index:101; border-top:1px solid #f0f0f0}
+
+.art_appshare{ position:fixed; bottom:0; left:0; height:80px; z-index:102}
+.art_appshare a{ float:left;height:100%; width:50%}
+.art_appshare a img{ width:36px; margin:0 auto; margin-top:12px; display:block}
+.art_appshare a span{ text-align:center; color:#666; width:100%; display:block; font-size:13px; margin-top:5px}
+
+.art_zhezhao02{
+	animation:art_zhezhao02 .6s;
+	-webkit-animation:art_zhezhao02 .6s;
+	-moz-animation:art_zhezhao02 .6s;
+	-ms-animation:art_zhezhao02 .6s;
+	}
+
+	
+@keyframes art_zhezhao02 {
+	from { bottom:-100%;}
+	to {bottom:0}
+}
+@-webkit-keyframes art_zhezhao02 {
+	from { bottom:-100%;}
+	to {bottom:0}
+}
+@-moz-keyframes art_zhezhao02 {
+	from { bottom:-100%;}
+	to {bottom:0}
+}
+@-ms-keyframes art_zhezhao02 {
+	from { bottom:-100%;}
+	to {bottom:0}
+}	
+
+
+.art_appshare{
+	animation:art_appshare .6s;
+	-webkit-animation:art_appshare .6s;
+	-moz-animation:art_appshare .6s;
+	-ms-animation:art_appshare .6s;
+	}
+
+@keyframes art_appshare {
+	from { bottom:-100%;}
+	to {bottom:0}
+}
+@-webkit-keyframes art_appshare {
+	from { bottom:-100%;}
+	to {bottom:0}
+}
+@-moz-keyframes art_appshare {
+	from { bottom:-100%;}
+	to {bottom:0}
+}
+@-ms-keyframes art_appshare {
+	from { bottom:-100%;}
+	to {bottom:0}
+}	
+
+
+.header h3{ margin:0}
+
+/*公众号文章列表*/
+.pub_top{background:#419eff;
+    background:-moz-linear-gradient(top, #419eff, #037ffe);
+    background:-o-linear-gradient(top,#419eff, #037ffe);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#419eff), to(#037ffe));
+    position:fixed;top:44px; left:0; z-index:99}
+
+.public_cont{ width:100%; height:62px;}
+.public_cont dt{ width:60px; height:60px;border-radius:60px; border:1px solid #fff}
+.public_cont dt img{width:60px; height:60px;border-radius:60px; }
+.public_cont dd{ margin-left:15px; padding:8px 0}
+.public_cont dd h3{ font-weight:bold; line-height:26px}
+.public_cont dd p{ line-height:19px}
+
+.public_cont .a_follow{ margin-top:-15px; color:#fff; border:1px solid #fff; border-radius:26px; height:26px; line-height:26px; padding-left:13px;  background:url(http://img.91caishen.com/source/images/contpla/app/gz02.png) 13px 6px no-repeat; background-size:14px auto; width:59px; }
+.public_cont .a_follow_ok{ background:none; border-color:#fff; color:#fff; text-align:center; padding:0; width:72px}
+
+.public_p{ line-height:24px; max-height:48px; overflow:hidden}
+
+/*tab*/
+.pub_tab{ height:auto; width:100%; overflow:hidden; border-bottom:1px solid #fafafa; position: -webkit-sticky; top:190px; left:0; z-index:100;position: sticky;  position:fixed;}
+.pub_tab a.pub_tab_a{ font-size:16px; color:#888; height:42px; line-height:42px; display:block; width:90px; float:left; text-align:center; padding-top:3px}
+.pub_tab a.pub_tab_in{font-weight:bold; color:#31c27c; color:#444}
+.pub_tab a.pub_tab_in em{ height:2.5px; display:block; position:absolute; bottom:0; left:0; width:30%; left:35%; border-radius:2.5px; }
+.pub_more{ position:absolute; right:4%; padding-right:15px; background:url(http://img.91caishen.com/source/images/contpla/app/icon_more.png) no-repeat center right; background-size:10px auto; height:42px; line-height:42px;}
+
+
+/*文章筛选*/
+.tk_screen{
+	position:fixed; bottom:0; left:0; z-index:101; height:auto;  min-height:160px;
+	animation:screen .5s;
+	-webkit-animation:screen .5s;
+	-moz-animation:screen .5s;
+	-ms-animation:screen .5s;
+}
+
+
+@keyframes screen{
+	from{ bottom:-100%;}
+	to{bottom:0;}
+	}
+@-moz-keyframes screen{
+	from{ bottom:-100%;}
+	to{bottom:0;}
+	}
+@-webkit-keyframes screen{
+ 	from{ bottom:-100%;}
+	to{bottom:0;}
+	}
+@-o-keyframes screen{
+	from{ bottom:-100%;}
+	to{bottom:0;}
+	}	
+	
+.tk_screen a{ height:32px; line-height:32px; font-size:14px; color:#666; border:1px solid #f0f0f0; float:left; margin:2%; border-radius:2px; width:28.6%; text-align:center}
+.tk_screen a.screen_in{ background:#31c27c; color:#fff; border-color:#31c27c}
+
+
+.colbox .artli:last-child{ border-bottom:1px solid #f2f2f2}
+
+/*关注*/
+.followlist{ border-bottom:1px solid #f2f2f2; height:82px}
+.followlist a.followa{ display:block; padding:15px 0; padding-left:65px; height:52px;}
+.follow_img { width:50px; height:50px; border-radius:50px; position:absolute; left:4%; top:15px; border:1px solid #f2f2f2; overflow:hidden}
+.follow_img img{ display:block; border-radius:50px}
+.followlist h3{ padding-top:5px}
+.followlist p{ height:20px; line-height:20px; overflow:hidden}
+
+
+/*取消关注*/
+.screena{ position:absolute; top:0;}
+.screen_left .screena{ right:-65px; width:65px;}
+.screen_right .screena{ right:-65px; width:65px}
+.screena a{ display:inline-block; width:35px; height:43px; float:left; line-height:21px; text-align:center; padding:20px 15px;}
+.screena a.a_delete{ background:#ff4e33}
+.screena a, .screena a:active{ color:#fff}
+
+.screen_left{ margin-left:-65px;
+	animation:scrleft .5s;
+	-webkit-animation:scrleft .5s;
+	}
+
+@keyframes scrleft{
+	from{ margin-left:0}
+	to{margin-left:-65px}
+	}
+@-moz-keyframes scrleft{
+	from{ margin-left:0}
+	to{margin-left:-65px}
+	}
+@-webkit-keyframes scrleft{
+ 	from{ margin-left:0}
+	to{margin-left:-65px}
+	}
+@-o-keyframes scrleft{
+ 	from{ margin-left:0}
+	to{margin-left:-65px}
+	}	
+
+
+.screen_right{ margin-left:0;
+	animation:scrright .5s;
+	-webkit-animation:scrright .5s;
+}	
+
+@keyframes scrright{
+	from{ margin-left:-65px}
+	to{margin-left:0}
+	}
+@-moz-keyframes scrright{
+	from{ margin-left:-65px}
+	to{margin-left:0}
+	}
+@-webkit-keyframes scrright{
+ 	from{ margin-left:-65px}
+	to{margin-left:0}
+	}
+@-o-keyframes scrright{
+ 	from{ margin-left:-65px}
+	to{margin-left:0}
+	}	
+	
+
+/*iphone4 5 5s*/
+@media only screen and (max-width:320px){
+	.arttitle{ font-size:18px}
+}
+
+/*iphone4*/
+@media only screen and (max-height:480px){
+
+}
+
+/*安卓 ios6*/
+@media only screen and (min-width:360px)and (max-width:381px){
+
+}
+
+
+/*iphoneX*/
+@media only screen and  (height:812px){
+	.bottom_h{ height:80px;}
+	.bot_ios{ padding-bottom:25px}
+}
+
+
+/*6plus*/
+@media only screen and (min-width:382px)and (max-width:479px){
+
+
+}
+
+
+
+/*480小米*/
+@media only screen and (min-width:480px)and (max-width:539px){
+
+
+}
+
+@media only screen and (min-width:540px){
+
+}

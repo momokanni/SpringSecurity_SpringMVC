@@ -1,0 +1,137 @@
+/*ҳ�������ť*/
+.org_btn,.org_btn span,.yel_btn,.yel_btn span{background:url(/front/images/manager/mana/mbtn.png) no-repeat;}
+.org_btn,.yel_btn{display:block;  display:inline-block; padding-left:20px; height:32px; line-height:30px; color:#555; font-size:14px; font-weight:bold; margin-left:5px;}
+.org_btn span,.yel_btn span{ color:#000; display:block; background-position:right 0px; padding-right:20px; display:inline-block; cursor:pointer; height:32px;}
+.org_btn{ background-position:0px 0px;}
+.yel_btn{background-position:0px -32px;}
+.org_btn span{background-position:right 0px;}
+.yel_btn span{background-position:right -32px;}
+.yel_btn span:hover,.org_btn span:hover{ color:#fff}
+.dn{display:none;}
+/*table*/
+.tabbd01{border:1px #ddd solid;}
+.vertxt{font-size:14px; width:14px; margin:0px auto; line-height:18px;}
+.maninput .objdiv table{margin:0px; border:1px #e5e5e5 solid; border-bottom:0px;}
+.maninput .objdiv table td{height:38px; line-height:38px;}
+.maninput .objdiv table .tit{background:#f5f5f5; color:#333; padding-left:15px;}
+
+.bompd td{padding-bottom:10px; padding-top:10px; border-bottom:1px #ddd solid;}
+.object .psell_table{border:1px #ddd solid;}
+.object .table_show{border-bottom:1px #e5e5e5 solid;}
+
+.dlib{border-bottom:1px #ddd dashed; padding:5px 0px; line-height:34px; height:34px; font-size:16px; color:#000;}
+.dlib span{display:block; float:left;}
+.total td{ color:#e90000; font-size:16px;}
+.dt{height:30px; border-top:1px #ddd solid; border-bottom:1px #ddd solid; text-align:right; padding-top:0px; margin-top:15px;}
+
+.bingc{width:70%; height:34px; line-height:34px; fong-size:16px; margin:15px auto 0px auto;}
+
+.Clearing a{display:block; float:left; margin-bottom:10px; height:24px; line-height:24px; padding:0px 10px; background:#f0f8ff; border:1px #9dc6ef solid; border-radius:3px;}
+
+.objmore table tr td{height:40px;}
+
+.statdiv{height:38px; line-height:38px; background:#f5f5f5; margin-top:15px; padding-left:10px; border:1px #eee solid;}
+.colltab{border:0px;}
+.colltab .psell_table{border:1px #ddd solid;}
+.maninput .colltab table .tr_bg td{font-weight:normal; font-size:12px;}
+.maninput .tab_tool{margin-top:-10px;}
+.maninput .tab_tool table{margin:0px auto;}
+.maninput .tab_tool table td{border:0px; background:#f5f5f5; font-weight:normal;}
+.maninput .tab_tool table td.aR{text-align:right;}
+.maninput .tab_tool table td.aR a{padding-right:10px;}
+.pselltdiv .table_show{margin-bottom:20px;}
+.pselltdiv .table_show td{font-size:14px; font-weight:normal; line-height:18px; padding:8px 0px; border:1px #eee solid;}
+.enlist .tab_tool table td{background:#fff;}
+
+.adduse .pro_table tr td{height:45px;}
+.adduse .pro_table .q-datepicker tr td{height:18px;}
+
+.tiermr_p{ line-height:30px; height:30px;}
+.tiermr_p span{width:110px; text-align:right; diaplay:block; float:left;}
+
+.compatdate .dke-dp{width:124px;}
+.compatdate .dke-dp .textbox{padding:2px 0px;}
+.addsf .dke-dp{display:block; float:left; margin-right:10px;}
+.addsf .sel01{height:26px; line-height:26px; background:#fff;}
+.titbable tr td{border:1px #e5e5e5 solid; font-size:12px;}
+.billDate .dke-dp{width:150px;}
+.billDate .dke-dp .dp-info{width:50px;}
+
+.meslist td{vertical-align:top; line-height:24px; padding:10px 0px;}
+.meslist td.tit{text-align:right; padding-right:10px; width:90px;}
+
+.jksq{padding-bottom:20px;}
+.jksq table tr td{padding:3px;}
+.title_short{height:40px; line-height:40px; background:#f5f5f5; padding:0px 20px;}
+.tab_short{height:40px; line-height:40px; background:#f5f5f5; padding-left:10px; margin-bottom:10px;}
+.scrttxt{display:right; width:auto; font-size:14px; padding-right:15px; float:right; text-align:right; }
+
+.dlimg{width:135px; displau:blcok; float:left;}
+.addpg{background:#f8f8f8; padding:20px 30px; margin-bottom:20px;}
+
+.upfile dl{display:block; float:left; margin-right:10px;}
+
+.tab_pd td{padding:5px;}
+
+/*��ֵ*/
+/*new*/
+.infotab{height:38px; margin-top:0px; border-radius:3px 3px 0px 0px; border:1px solid #3598dc; background:#60aee4; padding:4px 12px 0px 12px;}
+.infotab li{width:145px; height:38px; line-height:34px; float:left; text-align:center;}
+.infotab li.inli{padding:0px 10px; width:2px; font-size:0px; line-height:0px; padding-top:10px; height:28px;}
+.infotab li a{display:block; font-size:16px; color:#FFFFFF; line-height:34px;}
+.infotab li a:hover{color:#000;}
+.infotab li.inhov{ background:#fff; border-radius:3px 3px 0px 0px; border:1px solid #3598dc; border-bottom:0px;}
+.infotab li.inhov a,.infotab li.inhov a:hover{color:#000; line-height:38px;}
+.gbor{border:1px #3598dc solid;}
+.t3pay{height:70px; line-height:70px; font-size:18px; padding-left:15px; background:#f5f5f5; border-top:1px #3598dc solid;}
+.paystep{padding-left:90px; height:30px; line-height:30px; color:#3598dc; font-size:20px; padding-top:15px;  padding-bottom:15px; border-bottom:1px #ddd dashed; border-top:1px #8cc026 solid;}
+.ps01{background:url(/images/manager/step01.jpg) 0px 15px no-repeat;}
+.ps02{background:url(/images/manager/step02.jpg) 0px 15px no-repeat;}
+
+
+/* Dlg */
+.oe_dlg { width:350px; border:3px solid #3598dc; padding:20px auto; background:#fff; top:35%; left:35%; box-shadow:0 0 8px #3598dc; }
+.oe_dlg_bd { margin:10px auto 20px auto; padding-left:30px; padding-right:30px; }
+.oe_dlg_hd h2.title{height:38px; line-height:38px; background:#f5f5f5; padding-left:15px; color:#000;}
+.oe_dlg_ft { margin-top:20px; padding-bottom:30px; }
+
+/*btn*/
+a.oe_btn{ display:inline-block; margin:0 4px; width:82px; height:27px; line-height:27px; text-align:center; font-size:14px; font-weight:bold; background:url(/front/images/manager/sprite.png) no-repeat 0 -188px; color:#fff;}
+a.oe_btn:hover{color:#000;}
+.aclose_btn{ position:absolute; right:10px; top:4px; width:27px; height:27px; background: url(/front/images/manager/mana/closebtn.png) no-repeat 0px 0px;}
+.aclose_btn:hover{background-position:-32px 0px;}
+.step_btn{ display:block; background:url(/front/images/manager/btn_sprit.png) no-repeat 0 -60px; display:inline-block; padding-left:20px; height:32px; line-height:30px; color:#555; font-size:14px; font-weight:bold; margin-left:10px;}
+.step_btn span{ display:block; background:url(/front/images/manager/btn_sprit.png) no-repeat right -60px; padding-right:20px; display:inline-block; cursor:pointer; height:32px; vertical-align:top;}
+.step_btn span:hover{ color:#f60}
+
+.det_table{background:#f5f5f5; padding:10px 15px;}
+
+.abtn01{background: url("/images/user/userbtn.png") no-repeat scroll right 0 ; display:block; float:left; color:#000; font-size: 16px; height: 42px; line-height: 42px; padding-right: 30px; text-align: center;}
+.abtn01 span{background: url("/images/user/userbtn.png") no-repeat scroll left -42px rgba(0, 0, 0, 0); cursor: pointer; display: block; float: left; height: 42px; padding-left: 30px;}
+.abtn01:hover{background-position: right -118px; color: #FFFFFF;}
+.abtn01:hover span{background-position: left -160px; cursor: pointer;}
+
+.adbtn02{background: url("/images/user/offbtn.png") no-repeat scroll right 0 ; display:block; float:left; color:#000; font-size: 16px; height: 42px; line-height: 42px; padding-right: 30px; text-align: center;}
+.adbtn02 span{background: url("/images/user/offbtn.png") no-repeat scroll left -42px rgba(0, 0, 0, 0); cursor: pointer; display: block; float: left; height: 42px; padding-left: 30px;}
+
+
+.seach{ display:block; /*width:96px;*/ height:30px; background:url(/front/images/manager/sprite.png) no-repeat -104px -146px;}
+.sel01{border:1px #aaa solid; height:30px; line-height:28px;}
+
+.btn_div{height:60px; padding-left:410px; padding-top:20px;}
+
+.file_progress {
+  background: url("//www.xiaoyoucai.com/source/images/user/userbtn_n.png") no-repeat 0px -454px;
+  margin-bottom: 15px;
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.addition{position:absolute; left:0px; top:27px; z-index:5; background:#fff; width:143px; border:1px solid #ddd; padding:10px;}
+
+/*page*/
+.page{ height:35px; padding-top:15px; text-align:center; font-size:14px;}
+.page a{ color:#0069CA; margin:0 5px;}
+.page a.on{ color:#535353; font-weight:bold; font-family:Tahoma;}

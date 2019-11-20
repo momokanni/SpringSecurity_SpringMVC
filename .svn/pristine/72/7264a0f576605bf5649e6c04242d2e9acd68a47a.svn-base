@@ -1,0 +1,6 @@
+/* Suggect
+----------------------------------*/
+.q-suggest { font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif; position:absolute; top:1px; left:1px; border: 1px solid #666666; }
+.q-suggest tr.active { background-color:#E2EAFF;}
+.q-suggest td { font-size:12px;}
+.q-suggest table { background:none repeat scroll 0 0 #FFFFFF; cursor:default; width:100%; } 

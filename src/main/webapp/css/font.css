@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration:none;
+	color:#6a6a6a;
+}
+a:hover{
+	color:#3a9775;
+}
+
+a.fblue{color:#006ae1;}
+a.fblue:hover{color:#000;}
+
+.black{
+	color:#444034;
+}
+.green{
+	color:#5a8900;
+}
+.nred{
+	color:#f00001;
+}
+.blue{
+	color:#0074c1;
+}
+.orange,.red,.yel{
+	color:#ff845e;
+}
+.black{
+	color:#44444;
+}
+.gray{
+	color:#777;
+}
+.ftbl{
+	color:#000;
+}
+.white{
+	color:#fff;
+}
+.gry01{
+	color:#a8a8a8;
+}
+.white_b{
+	color:#fff;
+}
+.fgreen{
+	color:#3a9775;
+}
+.yell{
+	color:#ffff00;
+}
+.grft{
+	color:#ebebeb;
+}
+.ftclbg{color:#fff; background:#85a1d4; font-size:12px; font-family:Arial, Helvetica, sans-serif; padding:0px 3px;}
+.hintxt{line-height:22px; color:#de2f00; font-size:12px; font-family:Arial, Helvetica, sans-serif; padding:0px 5px 15px 5px;}
+
+.ftbl{color:#000;}
+
+/*字体*/
+.f6{
+	font-size:6px;}
+.f12{
+	font-size:12px;}
+.f14{
+	font-size:14px;}
+.f15{
+	font-size:15px;
+}
+.f16{
+	font-size:16px;
+}
+.f18{
+	font-size:18px;}
+.f20{
+	font-size:20px;}
+.f24{
+	font-size:24px;}
+.f32{
+	font-size:32px;}
+.f34{
+	font-size:34px;
+	font-weight:bold;
+}
+.f40{
+	font-size:40px;
+	font-family:"黑体"
+}
+.fw{
+	font-weight:bold;
+}
+.fn{
+	font-weight:normal;
+}
+.fsn{
+	font-style:normal;
+}
+.gray{
+	color:#686868;
+}
+.sgray{
+	color:#666; font-family:Arial, Helvetica, sans-serif;
+}
+.logo_o{
+	font-family:"Baskerville Old Face","arial"
+}
+.gray_txt,.gray_txt a{
+	color:#949393;
+}
+.green{
+	color:#48b028;
+}
+a.ftbl01{
+	color:#1FAFC9;
+}
+a.ftbl01:hover{
+	color:#000;
+}
+a.ftbl02{
+	color:#e86200;
+}
+a.ftbl02:hover{
+	color:#000;
+}
+a.ftbl03{
+	color:#aa1423;
+}
+a.ftbl03:hover{
+	color:#000;
+}
+a.rmred{
+	color:red;
+	text-decoration:underline;
+}
+a.rmred:hover{
+	color:#000;
+	text-decoration:underline;
+}
+a.ftbl04{
+	color:#005bac;
+	text-decoration: underline;
+}
+a.ftbl04:hover{
+	color:#000;
+	text-decoration: underline;
+}
+a.ftbl05{
+	color:#00d8ff;
+	text-decoration: underline;
+}
+a.ftbl05:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+a.ftbl06{
+	color:#0088df;
+	text-decoration: none;
+}
+a.ftbl06:hover{
+	color:#000;
+	text-decoration: none;
+}
+a.fblue{color:#006ae1;}
+a.fblue:hover{color:#000;}
+
+
+a.ftajb{color:#ff845e; font-size:16px;}
+a.ftajb:hover{color:#000;}
+
+
+/*账户*/
+.tit_h1{
+	display:block;
+	font-size:18px;
+	height:36px;
+	line-height:36px;
+	font-weight:normal;
+	border-bottom:2px solid #56d0b5;
+	color:#3a9775;
+}
+.paytit_h1{
+	display:block;
+	font-size:18px;
+	height:42px;
+	line-height:36px;
+	color:#1a1a1a;
+	font-weight:normal;
+	color:#478A00;
+}
+.infotit{
+	display:block;
+	font-size:18px;
+	height:36px;
+	line-height:36px;
+	color:#1a1a1a;
+	font-weight:normal;
+	color:#000;
+}
+
+.ft16b{
+	font-size:16px; color:#000;
+}
+.ftvlbl{color:#000; text-decoration:line-through}
+
+.ftb{ color:#000; font-weight:bold;}
+
+.fita{font-style:italic;}
+.ften{font-family:arial;}
+
+.liht22{line-height:22px;}
+.liht36{line-height:36px;}

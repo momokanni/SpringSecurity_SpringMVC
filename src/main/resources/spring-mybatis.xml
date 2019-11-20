@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-3.1.xsd 
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+">
+
+	<!-- 自动扫描 -->  
+    <context:component-scan base-package="com.caishen91.jupiter" />
+    
+    <!-- mysql数据库 -->
+    <!-- 可写数据源 -->
+	<bean id="dataSourceWrite" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="jdbcUrl" value="${conn.url}" />
+		<property name="user" value="${conn.user}" />
+		<property name="password" value="${conn.pwd}" />
+		<property name="initialPoolSize" value="30"/>
+		<property name="minPoolSize" value="30"/>
+		<property name="maxPoolSize" value="300"/>
+		<property name="maxIdleTime" value="60"/>
+		<property name="idleConnectionTestPeriod" value="60"/>
+		<property name="checkoutTimeout" value="6000"/>
+		<property name="preferredTestQuery" value="select 1"/>
+	</bean>
+
+	<!-- 只读数据源 -->
+	<bean id="dataSourceRead" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="jdbcUrl" value="${rconn.url}" />
+		<property name="user" value="${rconn.user}" />
+		<property name="password" value="${rconn.pwd}" />
+		<property name="initialPoolSize" value="30"/>
+		<property name="minPoolSize" value="30"/>
+		<property name="maxPoolSize" value="300"/>
+		<property name="maxIdleTime" value="60"/>
+		<property name="idleConnectionTestPeriod" value="60"/>
+		<property name="checkoutTimeout" value="6000"/>
+		<property name="preferredTestQuery" value="select 1"/>
+	</bean>
+
+	<!-- 可写的SessionFactory sqlWriteSessionFactory -->
+	<bean id="sqlWriteSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" scope="singleton">
+		<property name="dataSource" ref="dataSourceWrite" />
+		<property name="configLocation" value="classpath:mybatis-config.xml"></property>
+		<!-- 自动扫描mapping.xml文件 -->
+        <property name="typeAliasesPackage" value="com.caishen91.jupiter.model" />
+	</bean>
+
+	<!-- 只读的SessionFactory sqlReadOnlySessionFactory -->
+	<bean id="sqlReadOnlySessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" scope="singleton">
+		<property name="dataSource" ref="dataSourceRead" />
+		<property name="configLocation" value="classpath:mybatis-config.xml"></property>
+		<!-- 自动扫描mapping.xml文件 -->
+		<property name="typeAliasesPackage" value="com.caishen91.jupiter.model" />
+	</bean>
+
+	<bean id="writableSQLSession" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlWriteSessionFactory" />
+	</bean>
+
+	<bean id="readonlySQLSession" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlReadOnlySessionFactory" />
+	</bean>
+
+
+	<!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
+		<!--<property name="basePackage" value="com.caishen91.ycfaefae.dao" />-->
+
+		<!--<property name="sqlSessionFactoryBeanName" value="sqlWriteSessionFactory"></property>-->
+	<!--</bean>-->
+
+
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="transactionManager"
+        class="org.springframework.jdbc.datasource.DataSourceTransactionManager">  
+        <property name="dataSource" ref="dataSourceWrite" />  
+    </bean>
+    
+    <!--事物的具体内容-->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>

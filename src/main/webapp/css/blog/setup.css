@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* 设置 */
+.plr75{ padding-left:75px; padding-right:75px;}
+.set_tx{ border-radius:123px; -webkit-border-radius:123px; -moz-border-radius:123px; -o-border-radius:123px; border:1px solid #f0f6ff; width:123px; height:123px; overflow:hidden; margin:0 auto }
+.set_tx img{ display:block; width:123px; height:123px;border-radius:123px; -webkit-border-radius:123px; -moz-border-radius:123px; -o-border-radius:123px;}
+
+.set_tx:hover span{ display:block}
+.set_tx span{ display:none;position:absolute; bottom:0; left:0; width:100%; height:28px; line-height:26px; background:url(http://img.91caishen.com/source/images/contpla/icon/user_tx_bg.png); text-align:center; font-size:13px;
+	animation-name:settx; -webkit-animation-name:settx;
+	animation-duration:.15s; -webkit-animation-duration:.15s;
+	animation-timing-function:linear; -webkit-animation-timing-function:linear;}
+
+@keyframes settx{
+	from{ bottom:-28px}
+	to{ bottom:0}
+	}
+@-moz-keyframes settx{
+	from{ bottom:-28px}
+	to{ bottom:0}
+	}
+@-webkit-keyframes settx{
+	from{ bottom:-28px}
+	to{ bottom:0}
+	}
+@-o-keyframes settx{
+	from{ bottom:-28px}
+	to{ bottom:0}
+	}
+	
+.set_li{ height:70px;}
+.set_li dt{ line-height:70px; width:15%}
+.set_li dd{ height:69px; line-height:69px; border-bottom:1px solid #f0f0f0; width:85%}
+
+.set_li input{ width:76%; height:29px; line-height:29px; padding:20px 0;}
+
+.set_tx02{ height:200px;}
+.set_tx02 dd{ height:200px}
+.usertx{ width:152px;  float:left; margin-right:50px}
+.usertx a{ width:150px; height:150px; border:1px dashed #aad1ff;}
+.usertx p{ line-height:19px; margin-top:7px; text-align:center}
+
+.usertxbg{ background:url(http://img.91caishen.com/source/images/contpla/img/add_bg02.png) center no-repeat}
+.usertx .usertx_btn{ display:none; position:absolute; bottom:10px; left:30px; width:90px; line-height:28px; height:28px;border-radius:28px;-webkit-border-radius:28px; -moz-border-radius:28px; -o-border-radius:28px;}
+.usertx:hover .usertx_btn{ display:block}
+
+.tx01 .usertxbg{ width:130px; height:130px; border-radius:130px;-webkit-border-radius:130px; -moz-border-radius:130px; -o-border-radius:130px; margin:0 auto; margin-top:10px}
+.tx02 .usertxbg{ width:130px; height:51px; margin:0 auto; margin-top:49.5px}
+
+.tx01 .usertxbg img{ display:block; width:130px; height:130px;  border-radius:130px;-webkit-border-radius:130px; -moz-border-radius:130px; -o-border-radius:130px; background:#fff }
+.tx02 .usertxbg img{ display:block; width:130px; height:51px; background:#fff}

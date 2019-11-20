@@ -1,0 +1,13 @@
+.gpage{ padding:15px 0px; text-align:center;}
+.gpage a{ margin-right:5px; height:18px; line-height:18px; width:20px; text-align:center; border:1px #c1c1c1 solid; font-size:12px; display:inline-block; position:relative;}
+.gpage a:hover,.gpage a.hov,.gpage a.hov:hover{ background:#70c115; border:1px #569e06 solid; color:#fff;}
+.gpage > b{display:inline-block; line-height:18px;}
+.gpage .pagePrev b,.gpage .pageNext b{ border-color:#fff #4e4e4e #fff #fff; border-style:solid; border-width:6px; left:7px; font-size:0px; height:0px; line-height:0px; width:0px; position:absolute; top:3px;}
+.gpage .pageNext b{ border-color:#fff #fff #fff #4e4e4e;}
+.gpage .pagePrev b{left:2px;}
+.gpage .pagePrev:hover b{border-color:#70c115 #fff #70c115 #70c115;}
+.gpage .pageNext:hover b{ border-color:#70c115 #70c115 #70c115 #fff;}
+.gpage *{display:inline-block;  vertical-align:middle;}
+
+.event918 {background: url(../images/ckjl.jpg) no-repeat 0px 0px;display: block;height:33px;margin-left:575px;width:144px;}
+.event918:hover { background-position: 0 -33px;  }

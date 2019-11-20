@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px; list-style:none;}
+body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:14px; color:#777;}
+body.login{background:#85b724;}
+body.bg{background:url(/front/images/ui/backstage/lgbg.jpg) repeat-x #fff;}
+a{ color:#356cac; text-decoration:none;}
+a:hover{color:#000;}
+a img{border:none;}
+
+.lgmid{height:315px; padding-top:15px; background:#fff; border-top:1px #689a07 solid; border-bottom:1px #689a07 solid;}
+.af{color:#0c3eae;}
+.af:hover{color:#000;}
+
+.f12bc{color:#000; font-size:12px;}
+
+.dn{display:none;}
+
+#logo{width:560px; height:54px; margin:175px auto 15px auto; background:url(/front/images/manager/bmslogo.jpg) no-repeat;}
+
+.logdiv {width:300px; margin:0px auto; padding-top:10px;}
+.logdiv li{height:40px; line-height:40px; padding:10px 0px; overflow:hidden;}
+.logdiv li.loginbod{border:1px #ccc solid; padding:0px; margin-bottom:20px; }
+.logdiv li .nametit,.logdiv li .pswdtit{width:36px; margin-top:4px; display:block; float:left; height:32px; margin-right:10px; border-right:1px #ddd solid;}
+.logdiv li .nametit{background:url(/front/images/manager/logname.jpg) 7px 5px no-repeat;}
+.logdiv li .pswdtit{background:url(/front/images/manager/logpassword.jpg) 7px 5px no-repeat;}
+.logdiv li.hov .nametit{background:url(/front/images/manager/logname0.jpg) 7px 5px no-repeat;}
+.logdiv li.hov .pswdtit{background:url(/front/images/manager/logpassword0.jpg) 7px 5px no-repeat;}
+.logdiv li .lftxt{width:450px; float:left; position:relative;}
+.logdiv li .infotit{width:84px; color:#999; display:block; float:left; text-align:right; padding-right:10px;}
+
+
+.msgbox{ line-height:35px; display:block; float:left; margin-left:10px; color:#000; font-size:14px;}
+.log_cw{background:url(/front/images/ui/i.gif) 10px 5px no-repeat #fff; padding-left:30px; color:#000; font-size:12px; border:1px #ff8080 solid; height:28px; line-height:28px;}
+.syzm{ display:block; float:left; height:34px; width:98px;}
+.logdiv li.padlf158{padding:5px 0px 5px 158px;}
+.logdiv li.padlf158 input{float:left; margin-top:12px; *margin-top:7px; margin-right:5px; *margin-right:0px;}
+.logdiv li .abtn{ width:282px; height:34px; background:url(/front/images/manager/btn.jpg) 0px 0px no-repeat; display:block;}
+.logdiv li .abtn:hover{background-position:0px -34px;}
+
+.infoin,.infoyz,.infdj{width:247px; padding-left:10px; border:1px #c1c1c1 solid; float:left; height:32px; line-height:32px; font-size:16px;}
+.infoyz{width:141px; margin-right:8px;}
+.infhov{border:1px #90b9ed solid; outline:none;}
+.infdj{border:1px #90b9ed solid; outline:none;}
+.infhovyz{ outline:none; border:1px #90b9ed solid; margin-right:8px; width:141px; padding-left:10px; float:left; height:32px; line-height:32px; font-size:16px;}
+.lginnobd{border:0px; height:40px; width:210px; line-height:40px; display:block; float:left; font-size:18px; color:#000;}
+
+.abtn01{height:42px; line-height:42px; display:block; text-align:center; padding-right:30px; background:url(/images/user/userbtn.png) right 0px no-repeat; font-size:16px;}
+.abtn01 span{background:url(/images/user/userbtn.png) left -42px no-repeat; color:#fff; cursor:pointer; padding-left:30px; display:block; float:left; height:42px;}
+.abtn01:hover{background-position:right -118px; color:#fff; }
+.abtn01:hover span{background-position:left -160px; cursor:pointer;}
+.ftg{color:#777;}
+
+.bomtxt{height:30px; line-height:30px; text-align:center; font-size:14px; color:#dff7b0; margin-top:15px;}
