@@ -11,7 +11,7 @@
   	<!-- spring 版本号 -->
   	<spring.version>4.3.14.RELEASE</spring.version>
   	<!-- spring security 版本号 -->
-  	<security.version>4.2.0.RELEASE</security.version>
+  	<security.version>5.2.10.RELEASE</security.version>
   	<!-- mybatis 版本号 -->
   	<mybatis.version>3.4.6</mybatis.version>
   	<!-- logback 日志文件管理包版本 -->
