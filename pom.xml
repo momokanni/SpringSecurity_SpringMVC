@@ -9,7 +9,7 @@
   
    <properties>
   	<!-- spring 版本号 -->
-  	<spring.version>4.3.14.RELEASE</spring.version>
+  	<spring.version>5.2.22.RELEASE</spring.version>
   	<!-- spring security 版本号 -->
   	<security.version>4.2.0.RELEASE</security.version>
   	<!-- mybatis 版本号 -->
